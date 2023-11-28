@@ -47,7 +47,7 @@ main{
     font-size: 20px;
     /* font-weight:600; */
     text-align: center;
-    width: 450px;
+    width: 100%;
 }
 
 .years{
@@ -217,6 +217,7 @@ span{
     flex-direction: column;
     gap: 30px;
     font-family: 'Inter', sans-serif;
+    margin-top: 200px;
   
 }
 
@@ -416,14 +417,20 @@ footer p{
 
 }
 
-@media (max-width: 850px){
+ @media (max-width: 850px){
     .section2{
-        margin-top: 75px;
+        margin-top: 200px;
     }
 }
 
 @media (max-width: 456px){
     .section2{
-        margin-top: 100px;
+        margin-top: 260px;
+    } 
+}  
+
+@media (min-width: 850px){
+    .section2{
+        margin-top: 105px;
     }
 }
