@@ -419,13 +419,13 @@ footer p{
 
  @media (max-width: 850px){
     .section2{
-        margin-top: 200px;
+        margin-top: 100px;
     }
 }
 
 @media (max-width: 456px){
     .section2{
-        margin-top: 260px;
+        margin-top: 100px;
     } 
 }  
 
